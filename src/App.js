@@ -1,5 +1,6 @@
 
 import './App.css';
+import Kanban  from './components/kanban/Kanban';
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
       <h1 style={{marginBottom:'20px'}} >
         Kanban UI
       </h1>
-     
+     <Kanban/>
     </div>
   );
 }
