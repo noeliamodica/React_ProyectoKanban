@@ -1,6 +1,6 @@
-import "./Card.css"
+import "./card.css"
 
-function Card (props){
+export function Card (props){
     
     return
     <div className="card">
@@ -9,4 +9,3 @@ function Card (props){
     </div>
 }
 
-export default Card;
